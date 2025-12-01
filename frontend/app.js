@@ -35,7 +35,7 @@ function drawMeme() {
     const topText = document.getElementById("topText").value;
     const bottomText = document.getElementById("bottomText").value;
 
-    ctx.font = "50px Impact";
+    ctx.font = `${currentImage.width / 4} Impact`;
     ctx.fillStyle = "white";
     ctx.strokeStyle = "black";
     ctx.lineWidth = 5;
