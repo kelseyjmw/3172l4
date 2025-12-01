@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+
+canvas {
+    max-width: 100%;
+    border: 2px solid black;
+}
+
+main {
+    width: 600px;
+    text-align: center;
+}
+
+.controls, .text-controls {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
