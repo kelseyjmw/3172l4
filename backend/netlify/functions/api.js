@@ -10,6 +10,13 @@ const router = express.Router();
 
 const API_KEY = process.env.UNSPLASH_API_KEY;
 
+// Only start local server if not in Netlify
+if (!process.env.NETLIFY) {
+  api.listen(4000, () => {
+    console.log("Local server running at http://localhost:4000");
+  });
+}
+
 // GET /api/meme/random
 router.get("/meme/random", async (req, res) => {
     try {
