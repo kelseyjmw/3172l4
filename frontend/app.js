@@ -24,7 +24,7 @@ document.getElementById("upload").addEventListener("change", (e) => {
 });
 
 // Render meme with text
-DocumentType.getElementById("renderBtn").addEventListener("click", drawMeme);
+document.getElementById("renderBtn").addEventListener("click", drawMeme);
 
 function drawMeme() {
     canvas.width = currentImage.width;
