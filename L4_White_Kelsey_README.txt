@@ -7,7 +7,7 @@
 * [Kelsey White](kelsey.white@dal.ca) - (Author)
 
 ## URLs
-* *GitLab Repo: https://git.cs.dal.ca/white1/csci-3172/-/tree/bf1bc5c4deaeb7e18c679c08302a77ca59208c09/labs/lab5
+* *GitLab Repo: https://git.cs.dal.ca/white1/csci-3172/-/tree/b67b6978730e927f89410b333a2d846b797fc949/labs/lab4
 * *Lab Live URL (Netflify)*: https://kwhite-3172l4.netlify.app/
 * *GitHub Repo: https://github.com/kelseyjmw/3172l4
 
